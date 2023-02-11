@@ -13,10 +13,9 @@ public class Test {
 		System.out.println("------------");
 		cs.getName();
 		System.out.println("------------");
-		Student st=(Student) context.getBean("studentproxy","studentproxy1");
 		Student st1=(Student) context.getBean("studentproxy1");
 		System.out.println("------------");
-		st.avgMark();
+		st1.avgMark();
 		System.out.println("------------");
 		st1.showResult();
 		System.out.println("------------");
